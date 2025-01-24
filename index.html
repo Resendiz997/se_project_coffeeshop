@@ -22,16 +22,16 @@
       alt="triple esspreso logo" class="nav__logo"/>
       <ul class="nav__links">
         <li>
-          <a class="nav__link" href="#">recipes</a>
+          <a class="nav__link" href="#recipe">recipes</a>
         </li>
         <li>
-          <a class="nav__link" href="#">book a table</a>
+          <a class="nav__link" href="#reserve">book a table</a>
         </li>
         <li>
-          <a class="nav__link" href="#">menu</a>
+          <a class="nav__link" href="#menu">menu</a>
         </li>
         <li>
-          <a class="nav__link" href="#">contacts</a>
+          <a class="nav__link" href="#contacts">contacts</a>
         </li>
       </ul>
     </nav>
@@ -53,12 +53,31 @@
     </div>
  </header>
   <main class="content">
-   <section class="recipes"></section>
-   <section class="reservation"></section>
-   <section class="menu"></section>
+   <section id="recipe" class="recipes">
+    <h2 class="recipes__title">Recipes</h2>
+    <p class="recipes__subtitle">Check out some recipes we've collected for
+      your home-brewing convenience:
+    </p>
+     <ul class="recipes__videos">
+      <li class="recipes__iframe">
+        <iframe width="480" height="273" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=nJThIcM4-hpFqU4h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p class="recipes__video-caption">
+          <span>Aeropress recipe</span><span>~5 min</span>
+        </p>
+      </li>
+      <li class="recipes__iframe">
+        <iframe width="480" height="273" src="https://www.youtube.com/embed/st571DYYTR8?si=H-trSpR_BfBG3fcF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p class="recipes__video-caption">
+          <span>French presss recipe</span><span>~15 min</span>
+        </p>
+      </li>
+     </ul>
+   </section>
+   <section id="reserve" class="reservation"></section>
+   <section id="menu" class="menu"></section>
    <section class="about"></section>
   </main>
-  <footer class="footer"></footer>
+  <footer id="contacts" class="footer"></footer>
  </div>
 </body>
 </html>
